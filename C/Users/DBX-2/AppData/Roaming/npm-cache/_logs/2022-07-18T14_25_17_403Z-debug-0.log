@@ -1,0 +1,36 @@
+0 verbose cli [
+0 verbose cli   'C:\\node32\\node.exe',
+0 verbose cli   'C:\\node32\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'prefix',
+0 verbose cli   '-g'
+0 verbose cli ]
+1 info using npm@8.5.0
+2 info using node@v16.14.2
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 6ms
+5 timing config:load:file:C:\node32\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 7ms
+8 timing config:load:env Completed in 17ms
+9 timing config:load:project Completed in 8ms
+10 timing config:load:file:C:\Users\DBX-2\.npmrc Completed in 26ms
+11 timing config:load:user Completed in 26ms
+12 timing config:load:file:C:\node32\etc\npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:credentials Completed in 39ms
+16 timing config:load:setEnvs Completed in 3ms
+17 timing config:load Completed in 117ms
+18 timing npm:load:configload Completed in 117ms
+19 timing npm:load:setTitle Completed in 1ms
+20 timing config:load:flatten Completed in 11ms
+21 timing npm:load:display Completed in 19ms
+22 verbose logfile C:\Proyects\BLOG\C\Users\DBX-2\AppData\Roaming\npm-cache\_logs\2022-07-18T14_25_17_403Z-debug-0.log
+23 timing npm:load:logFile Completed in 92ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 235ms
+27 timing command:prefix Completed in 7ms
+28 verbose exit 0
+29 timing npm Completed in 10104ms
+30 info ok

@@ -1,0 +1,13 @@
+Elaborar un sitio Web informativo sobre la asignatura Organización y Estructura del Computador (230-2444).
+
+*Incluye una página de inicio con información sobre la asignatura, la carrera a la que pertenece y la universidad que la dicta.
+
+*banner que se mantendrá en todo el sitio.
+
+*un menú para acceder a las otras secciones del sitio.
+*enlaces a las redes sociales.
+*posibilidad de realizar un registro de usuario y acceder a las opciones privadas, testimonios de exalumnos y un formulario para el contacto.
+
+La página de inicio será visible para el usuario público. 
+Deben existir páginas individuales por cada Unidad que contiene la asignatura, con un desglose resumido de los temas, se pueden incluir link a recursos como PDF para ampliar lo ofrecido (también serán visibles para el usuario público). Otra sección será un blog con artículos relacionados con la asignatura (visible para todos los usuarios, pero alimentado por un usuario registrado - son los únicos que pueden hacer esta acción). Galería, carrusel de fotos alusivas a la asignatura que pueden subir un usuario registrado, también las puede eliminar. Y, una sección, con datos de libros para obtener información de la asignatura.
+El proyecto se realizará en parejas, empleando React js, la fecha de entrega será la del examen final y lo podrán presentar aquellos estudiantes que hayan acumulado de 3.5 puntos en adelante.

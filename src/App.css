@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.Banner-logo{ /*Banner logo*/
+  height: 30vmin;
+  padding-left: 10vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Banner{ /*Banner en general*/
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  pointer-events: none;
+  font-size: 15vmin;
+  height: 10vh;
+  width: 10vh;
 }
 
-.App-link {
+.Banner-Title{ /*Banner titulo*/
   color: #61dafb;
+  font-size: 30vh;
+  font-family: serif;
+  text-shadow: -7px 0px 4px #0002
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Menu{ /*Barra de menu*/
+  background-color: black;
+  border: solid;
+  border-color: white;
+  border-radius: 3rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.Links{ /*Estilo de los links del menu*/
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 3vh;
+  cursor: pointer;
+  font-family: cursive;
+  margin-right: 30px;
+}
+
+.Footer{ /*Barrar del pie de pagina*/
+  background-color: black;
+  height: 60vh;
+}
+
+.FooterText{ /*Texto principal del pie de pagina*/
+  color: white;
+  font-size: 3vh;
+  margin-left: 3vh;
+  pointer-events: none;
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+}
+
+.FooterText2{ /*Nombres de los integrantes*/
+  color: white;
+  font-size: 2.5vh;
+  font-family: sans-serif;
+  margin-left: 3.5vh;
+  pointer-events: none;
+  list-style: none;
+}
+
+.SocialLink{ /*los links contenedores*/
+  padding-left: 3vh;
+}
+
+.Img{ /*La imagen del link*/
+  height: 6vh;
+  width: 6vh;
+  max-width: 10%;
+  max-height: 10%;
 }
